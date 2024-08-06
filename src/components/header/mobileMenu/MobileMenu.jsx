@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import MobileMenuWrapper from "./MobileMenu.style";
-import Logo from "../../../assets/images/logo.png";
+import Logo from "../../../assets/images/kkk-removebg-preview.png";
 import Telegram from "../../../assets/images/icons/telegram.svg";
 import Discord from "../../../assets/images/icons/discord.svg";
 import Twitter from "../../../assets/images/icons/twitter.svg";
@@ -24,7 +24,7 @@ const MobileMenu = ({ mobileMenuHandle }) => {
         </div>
 
         <ul className="mobile-menu-list mb-40">
-          {Data?.map((item, i) => (
+        {[{title: "User Interface 1", url: "/home-eight"},{title: "User Interface 2" , url: "/",}]?.map((item, i) => (
             <li key={i}>
               <NavLink to={item.url} end>
                 {item.title}
