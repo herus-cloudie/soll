@@ -9,7 +9,7 @@ const Layout = ({ pageTitle, children }) => {
         {pageTitle ? <title>{pageTitle}</title> : <title>Gittu</title>}
 
         {/* favicon included here  */}
-        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="../../../assets/images/kkk-removebg-preview.png" type="image/x-icon" />
 
         {/* apple touch icon included here */}
         <link rel="apple-touch-icon" href="/favicon.png" />

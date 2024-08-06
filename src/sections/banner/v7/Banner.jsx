@@ -17,7 +17,7 @@ import { FaPlus } from "react-icons/fa6";
 import { GoArrowDownLeft, GoArrowUpRight } from "react-icons/go";
 
 import SolidProofImg from "../../../assets/images/solidproof.png";
-import LogoImg from "../../../assets/images/logo-3.png";
+import LogoImg from "../../../assets/images/kkk-removebg-preview.png";
 import IconImg1 from "../../../assets/images/icons/wallet.svg";
 import IconImg2 from "../../../assets/images/icons/telegram.svg";
 import IconImg3 from "../../../assets/images/icons/twitter.svg";
@@ -229,7 +229,7 @@ const Banner = () => {
                   </a>
                 </li>
                 <li>
-                  <a href={Whitepaper} target="_blank" rel="noreferrer">
+                  <a href={'#'} target="_blank" rel="noreferrer">
                     <img src={IconImg7} alt="icon" className="icon" />
                     <span className="name">Whitepaper</span>
                     <span className="icon-text">

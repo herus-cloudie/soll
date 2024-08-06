@@ -5,7 +5,7 @@ import ConnectWalletButton from "../../connectWalletButton/ConnectWalletButton";
 import DropdownDemo from "../dropdownDemo/DropdownDemo";
 import MobileMenu from "../mobileMenu/MobileMenu";
 
-import Logo from "../../../assets/images/logo-2.png";
+import Logo from "../../../assets/images/kkk-removebg-preview.png";
 import Telegram from "../../../assets/images/icons/telegram.svg";
 import Discord from "../../../assets/images/icons/discord.svg";
 import Twitter from "../../../assets/images/icons/twitter.svg";
@@ -56,7 +56,7 @@ const Header = () => {
               </ul>
               <ul className="gittu-header-left-menu">
                 <li>
-                  <a href={Whitepaper} target="_blank" rel="noreferrer">
+                  <a href={'#'} target="_blank" rel="noreferrer">
                     Whitepaper
                   </a>
                 </li>
@@ -64,7 +64,7 @@ const Header = () => {
             </div>
             <div className="gittu-header-center">
               <NavLink className="gittu-header-logo" to="/" end>
-                <img src={Logo} alt="Logo" />
+                <img src={Logo} alt="Logo" width={100} height={100} style={{filter : 'invert(1)'}}/>
               </NavLink>
             </div>
             <div className="gittu-header-right">

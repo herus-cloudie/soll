@@ -16,7 +16,7 @@ const DropdownDemo = ({ className, variant }) => {
         <img src={MenuGridIcon} alt="menu" />
       </button>
       <ul className="dropdown-demo-list">
-        {Data?.map((item, i) => (
+        {[{title: "User Interface 1", url: "/home-eight"},{title: "User Interface 2" , url: "/",}]?.map((item, i) => (
           <li key={i}>
             <NavLink to={item.url} end>
               {item.title}

@@ -5,7 +5,7 @@ import Banner from "../sections/banner/v4/Banner";
 
 const HomeV4 = () => {
   return (
-    <Layout pageTitle="Gittu - Home Four">
+    <Layout pageTitle="BlockSphere - Home Four">
       <Header variant="v3" />
       <Banner />
     </Layout>

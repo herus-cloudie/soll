@@ -139,7 +139,7 @@ const Banner = () => {
 
               <a
                 className="whitepaper-btn"
-                href={Whitepaper}
+                href={'#'}
                 target="_blank"
                 rel="noreferrer"
               >

@@ -5,9 +5,9 @@ import ConnectWalletButton from "../../connectWalletButton/ConnectWalletButton";
 import DropdownDemo from "../dropdownDemo/DropdownDemo";
 import MobileMenu from "../mobileMenu/MobileMenu";
 
-import Logo from "../../../assets/images/logo-3.png";
-import Logo4 from "../../../assets/images/logo-4.png";
-import Logo5 from "../../../assets/images/logo-5.png";
+import Logo from "../../../assets/images/kkk-removebg-preview.png";
+import Logo4 from "../../../assets/images/kkk-removebg-preview.png";
+import Logo5 from "../../../assets/images/kkk-removebg-preview.png";
 import Telegram from "../../../assets/images/icons/telegram.svg";
 import Discord from "../../../assets/images/icons/discord.svg";
 import Twitter from "../../../assets/images/icons/twitter.svg";
@@ -38,7 +38,7 @@ const Header = ({ variant }) => {
           <div className="gittu-header-content">
             <div className="gittu-header-left">
               <NavLink className="gittu-header-logo" to="/" end>
-                <img src={logoImg} alt="Logo" />
+                <img src={logoImg} alt="Logo" width={150} height={150} style={{filter : 'invert(1)'}}/>
               </NavLink>
             </div>
             <div className="gittu-header-right">
@@ -51,7 +51,7 @@ const Header = ({ variant }) => {
                 {variant === "v1" && (
                   <ul className="gittu-header-menu">
                     <li>
-                      <a href={Whitepaper} target="_blank" rel="noreferrer">
+                      <a href={'#'}  target="_blank" rel="noreferrer">
                         Whitepaper
                       </a>
                     </li>

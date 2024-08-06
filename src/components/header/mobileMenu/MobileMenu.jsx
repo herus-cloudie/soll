@@ -15,7 +15,7 @@ const MobileMenu = ({ mobileMenuHandle }) => {
       <div className="gittu-mobile-menu-content">
         <div className="mobile-menu-top">
           <NavLink className="mobile-logo" to={"/"} end>
-            <img src={Logo} alt="Logo" />
+            <img src={Logo} alt="Logo" width={100} height={100} style={{filter : 'invert(1)'}}/>
           </NavLink>
 
           <button className="mobile-menu-close" onClick={mobileMenuHandle}>
@@ -57,7 +57,7 @@ const MobileMenu = ({ mobileMenuHandle }) => {
 
         <ul className="mobile-menu-list mb-40">
           <li>
-            <a href={Whitepaper} target="_blank" rel="noreferrer">
+            <a href={'#'} target="_blank" rel="noreferrer">
               Whitepaper
             </a>
           </li>

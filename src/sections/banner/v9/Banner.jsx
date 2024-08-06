@@ -330,7 +330,7 @@ const Banner = () => {
                 <div className="mt-40 mb-40">
                   <a
                     className="whitepaper-btn"
-                    href={Whitepaper}
+                    href={'#'}
                     target="_blank"
                     rel="noreferrer"
                   >

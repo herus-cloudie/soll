@@ -5,7 +5,7 @@ import ConnectWalletButton from "../../connectWalletButton/ConnectWalletButton";
 import DropdownDemo from "../dropdownDemo/DropdownDemo";
 import MobileMenu from "../mobileMenu/MobileMenu";
 
-import Logo from "../../../assets/images/logo-3.png";
+import Logo from "../../../assets/images/kkk-removebg-preview.png";
 import { HiMenuAlt3 } from "react-icons/hi";
 import Whitepaper from "../../../assets/pdf/whitepaper.pdf";
 
@@ -23,7 +23,7 @@ const Header = () => {
           <div className="gittu-header-content">
             <div className="gittu-header-left">
               <NavLink className="gittu-header-logo" to="/" end>
-                <img src={Logo} alt="Logo" />
+                <img src={Logo} alt="Logo" width={100} height={100} style={{filter : 'invert(1)'}}/>
               </NavLink>
             </div>
             <div className="gittu-header-right">
@@ -35,7 +35,7 @@ const Header = () => {
               <div className="gittu-header-right-menu">
                 <ul className="gittu-header-menu">
                   <li>
-                    <a href={Whitepaper} target="_blank" rel="noreferrer">
+                    <a href={'#'} target="_blank" rel="noreferrer">
                       Whitepaper
                     </a>
                   </li>
